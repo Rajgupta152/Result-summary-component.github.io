@@ -1,0 +1,196 @@
+#container{
+    background-color: white;
+    height: 1000px;
+}
+#box{
+    background-color: rgba(0, 0, 255, 0.707);
+    border: solid 10px rgba(0, 0, 255, 0.064);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 300px;
+    width: 220px;
+    margin-top: 320px;
+    margin-left: 500px;
+    float: left;
+   
+}
+
+#circle{
+    background-color: rgba(47, 0, 255, 0.652);
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    margin-left: 50px;
+    
+   
+}
+
+.title{
+    text-align: center;
+    font-size: 13px;
+    color: aliceblue;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score{
+    color: aliceblue;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 60px;
+    display: inline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.para{
+    padding-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#text{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.para1{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: aliceblue;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 2nd box */
+#box2{
+    display: inline;
+    background-color: white;
+    height: 320px;
+    width: 220px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: left;
+    margin-top: 320px;
+    box-shadow: 10px;
+    
+}
+.title-2{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#reaction{
+    background-color: rgba(255, 0, 0, 0.049);
+    width: 180px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.reaction-text{
+    display: inline;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 0, 0, 0.7);
+    font-weight: 500;
+}
+
+
+.test-score{
+    display: inline;
+    padding-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.test-score-out-of{
+    display: inline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    color:grey;
+    font-weight: 600;
+}
+
+#memory{
+    background-color:  rgba(255, 0, 0, 0.049);
+    width: 180px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.memory-text{
+    display: inline;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(45, 137, 208, 0.784);
+    font-weight: 500;
+   
+}
+
+#verbal{
+    background-color: rgba(0, 128, 0, 0.092);
+    width: 180px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.verbal-text{
+    display: inline;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 128, 0, 0.778);
+    font-weight: 500;
+}
+
+#visual{
+    background-color: rgba(0, 0, 139, 0.071);
+    width: 180px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.visual-text{
+    display: inline;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 139, 0.729);
+    font-weight: 500;
+}
+
+#verbal>.test-score{
+
+    padding-left: 45px;
+}
+
+#visual>.test-score{
+    padding-left: 45px;
+}
+
+button{
+    background-color: rgb(6, 6, 44);
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+
